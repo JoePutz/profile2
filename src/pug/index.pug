@@ -1,0 +1,216 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Resume - Start Bootstrap Theme
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v6.1.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none Joseph Putz
+                span.d-none.d-lg-block
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='https://avatars.githubusercontent.com/u/104157142?v=4', alt='...')
+            button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarResponsive.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#about') About
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#education') Education
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+                    //- li.nav-item
+                    //-     a.nav-link.js-scroll-trigger(href='#awards') Awards
+
+        // Page Content
+        .container-fluid.p-0
+
+            // About
+            section#about.resume-section
+                .resume-section-content
+                    h1.mb-0
+                        | Joseph 
+                        span.text-primary Putz
+                    .subheading.mb-5
+                        | 714 W Rockwell Street · Arlington Heights, IL 60005 · (847) 347-3341 · 
+                        a(href='mailto:josephputz89@gmail.com') josephputz89@gmail.com
+                    p.lead.mb-5
+                        | Full Stack Developer with experience using frontend and backend technologies such as Ruby, Rails, Node, JavaScript, and React. Prior background in historic conservation and museums, which has given strong research and task management skills and the discipline to work in a timely manner.
+                    .social-icons
+                        a.social-icon(href='https://www.linkedin.com/in/joseph-putz/')
+                            i.fab.fa-linkedin-in
+                        a.social-icon(href='https://github.com/JoePutz')
+                            i.fab.fa-github
+                        a.social-icon(href='https://medium.com/@jPutz')
+                            i.fab.fa-medium
+
+            hr.m-0
+
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Projects
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Comic Strip Zone
+                            a(href='https://github.com/hkassow/comic-strip') Github
+                            p
+                                | A means of reviewing and bookmarking famous comics
+                        .flex-shrink-0
+                            //- span.text-primary March 2013 - Present
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Zoo Animal Locator
+                            a(href= 'https://github.com/jmacapagal90/p3-sinatra-react-project-back-end') Github backend
+                            a(href= 'https://github.com/jmacapagal90/p3-sinatra-react-project-front-end') Github frontend
+                            p
+                                | Designed to categorize animals sighted at various locations, recording and storing information about them.
+                        .flex-shrink-0
+                            //- span.text-primary December 2011 - March 2013
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Book Rental App
+                            a(href= 'https://github.com/tofudragon333/json-server-template') Github backend 
+                            a(href= 'https://github.com/JoePutz/video-game-rental') Github frontend
+                            p
+                                | Displayed the books within in a theoretical library, allowing users to rent them with a countdown for the return date
+                        .flex-shrink-0
+                            //- span.text-primary July 2010 - December 2011
+
+                    //- .d-flex.flex-column.flex-md-row.justify-content-between
+                    //-     .flex-grow-1
+                    //-         h3.mb-0 Book Rental App
+                    //-         .subheading.mb-3 Shout! Media Productions
+                    //-         p
+                    //-             | Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+                    //-     .flex-shrink-0
+                    //-         span.text-primary September 2008 - June 2010
+
+            hr.m-0
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Flatiron School
+                            .subheading.mb-3 Certification of Completion
+                            div Computer Science - Software Engineering
+                        .flex-shrink-0
+                            span.text-primary August 2006 - May 2010
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Loyola University of Chicago
+                            .subheading.mb-3 Masters of Arts in History, Bachelors of Science in Mathematics
+                            div Graduated with Honors
+                        .flex-shrink-0
+                            span.text-primary August 2002 - May 2006
+
+            hr.m-0
+
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Skills
+                    .subheading.mb-3 Programming Languages & Tools
+                    .subheading.mb-1 Development 
+                    p.lead.mb-5
+                        | JavaScript, React, Ruby, Rails, SQL, Python, ActiveRecord
+                    .subheading.mb-1 Design 
+                    p.lead.mb-5 
+                        | HTML, CSS, Bootstrap, Semantic UI, UX/UI
+                    .subheading.mb-1 Application 
+                    p.lead.mb-5 
+                        | Git, Github, Heroku, Netlify, JSON, API
+            //-         ul.list-inline.dev-icons
+            //-             li.list-inline-item
+            //-                 i.fab.fa-html5
+            //-             li.list-inline-item
+            //-                 i.fab.fa-css3-alt
+            //-             li.list-inline-item
+            //-                 i.fab.fa-js-square
+            //-             li.list-inline-item
+            //-                 i.fab.fa-angular
+            //-             li.list-inline-item
+            //-                 i.fab.fa-react
+            //-             li.list-inline-item
+            //-                 i.fab.fa-node-js
+            //-             li.list-inline-item
+            //-                 i.fab.fa-sass
+            //-             li.list-inline-item
+            //-                 i.fab.fa-less
+            //-             li.list-inline-item
+            //-                 i.fab.fa-wordpress
+            //-             li.list-inline-item
+            //-                 i.fab.fa-gulp
+            //-             li.list-inline-item
+            //-                 i.fab.fa-grunt
+            //-             li.list-inline-item
+            //-                 i.fab.fa-npm
+            //-         .subheading.mb-3 Workflow
+            //-         ul.fa-ul.mb-0
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-check
+            //-                 | Mobile-First, Responsive Design
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-check
+            //-                 | Cross Browser Testing & Debugging
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-check
+            //-                 | Cross Functional Teams
+            //-             li
+            //-                 span.fa-li
+            //-                     i.fas.fa-check
+            //-                 | Agile Development & Scrum
+
+            //- hr.m-0
+
+            // Interests
+            section#interests.resume-section
+                .resume-section-content
+                    h2.mb-5 Interests
+                    p
+                        | Apart from being a software engineering, I enjoy very little more than listening to music and reading. I also enjoy camping and generally getting away from the rest of the world. 
+                    p.mb-0
+                        | But if I had to choose my one passion above all it's the simple act of creation, I enjoyed woodworking when I was younger, and now I have that same joy when writing both fiction and seeing my efforts come to fruition with programming.
+
+            hr.m-0
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
